@@ -12,5 +12,6 @@ A password generator website is an online tool designed to create strong, random
 ![Screenshot 2023-08-09 134023](https://github.com/Trevis-Williams/Password-Generator/assets/135195221/7e6c5701-00b3-43c5-8032-d3a2642f5331)
 
 ## Website link 
-https://trevis-williams.github.io/Password-Generator/
-git 
+https://trevis-williams.github.io/Password-Generator/git 
+
+## Help Joem Casusi
