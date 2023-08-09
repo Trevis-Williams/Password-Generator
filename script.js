@@ -1,5 +1,18 @@
 // Assignment code here
 
+const generatePassword = () => {
+  const length = 12; 
+  const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+~`|}{[]:;?><,./-= ";
+  let password = "";
+  for (let i = 0; i < length; i++) {
+    const randomIndex = Math.floor(Math.random() * charset.length);
+    password += charset[randomIndex];
+  }
+  return password;
+};
+
+
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -17,15 +30,6 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 
-const generatePassword = () => {
-  const length = 12; 
-  const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+~`|}{[]:;?><,./-= ";
-  let password = "";
-  for (let i = 0; i < length; i++) {
-    const randomIndex = Math.floor(Math.random() * charset.length);
-    password += charset[randomIndex];
-  }
-  return password;
-};
+
 
 
